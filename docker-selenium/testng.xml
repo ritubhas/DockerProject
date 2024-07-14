@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Grp Test" thread-count="2" parallel="methods">
+	<!-- For Chrome -->
+	<parameter name ="environment" value="local"/>
+	<test name="Test1" verbose="2" enabled="true">
+		<groups>
+			<run>
+				<include name = "Search"></include>
+			</run>
+		</groups>		
+		<classes>
+			<class name="com.simplilearn.docker_selenium.TestClass1">
+			</class>
+		</classes>
+	</test>
+	
+<!--	 For Firefox -->	
+   <parameter name ="environment" value="local"/>
+	<test name="Grp" verbose="2" enabled="true">
+		<groups>
+			<run>
+				<include name = "grp"></include>
+			</run>
+		</groups>		
+		<classes>
+			<class name="com.simplilearn.docker_selenium.TestClass2">
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

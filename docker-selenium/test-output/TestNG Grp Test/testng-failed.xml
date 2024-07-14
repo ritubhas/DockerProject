@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [TestNG Grp Test]">
+  <parameter name="environment" value="local"/>
+  <test parallel="methods" name="Grp(failed)">
+    <groups>
+      <run>
+        <include name="grp"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.simplilearn.docker_selenium.TestClass2">
+        <methods>
+          <include name="tc1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplilearn.docker_selenium.TestClass2 -->
+    </classes>
+  </test> <!-- Grp(failed) -->
+</suite> <!-- Failed suite [TestNG Grp Test] -->

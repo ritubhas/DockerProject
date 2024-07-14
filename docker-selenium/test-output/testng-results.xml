@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-07T18:35:36Z" name="TestNG Grp Test" finished-at="2024-07-07T18:35:47Z" duration-ms="10868">
+    <groups>
+      <group name="grp">
+        <method signature="TestClass2.tc1(java.lang.String)[pri:0, instance:com.simplilearn.docker_selenium.TestClass2@37918c79]" name="tc1" class="com.simplilearn.docker_selenium.TestClass2"/>
+      </group> <!-- grp -->
+    </groups>
+    <test started-at="2024-07-07T18:35:36Z" name="Test1" finished-at="2024-07-07T18:35:36Z" duration-ms="5">
+    </test> <!-- Test1 -->
+    <test started-at="2024-07-07T18:35:36Z" name="Grp" finished-at="2024-07-07T18:35:47Z" duration-ms="10826">
+      <class name="com.simplilearn.docker_selenium.TestClass2">
+        <test-method signature="tc1(java.lang.String)[pri:0, instance:com.simplilearn.docker_selenium.TestClass2@37918c79]" started-at="2024-07-07T11:35:36Z" name="tc1" finished-at="2024-07-07T11:35:47Z" duration-ms="10811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- com.simplilearn.docker_selenium.TestClass2 -->
+    </test> <!-- Grp -->
+  </suite> <!-- TestNG Grp Test -->
+</testng-results>
